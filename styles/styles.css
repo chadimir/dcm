@@ -1,0 +1,29 @@
+.maincontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.table1 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 800px;
+}
+
+.table1 input {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.table1 input:nth-child(1) {
+  border: none;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1.0;
+}
