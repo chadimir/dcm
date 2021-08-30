@@ -8,15 +8,31 @@
   border-radius: 5px;
   padding: 5px;
   max-width: 800px;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  border-collapse: collapse;
+}
+
+.table1 td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .table1 input {
   padding: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: none;
   text-align: center;
   outline: none;
   border-radius: 5px;
   width: 100px;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-weight: 900;
 }
 
 .table1 input:nth-child(1) {
